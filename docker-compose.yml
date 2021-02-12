@@ -7,7 +7,7 @@ services:
     build:
       context: .
       args:
-        - definitions=_definitions.json
+        - definitions=definitions.json
       dockerfile: Dockerfile
     ports:
       - "15672:15672"
